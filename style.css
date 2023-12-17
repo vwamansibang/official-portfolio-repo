@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.nav-hero {
+    width: 56vw;
+    height:10vh;
+    padding: 15px;
+    margin: 20px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-hero span {
+    justify-content: flex-end;
+}
+
+.nav-hero a{
+    font-size: 22px;
+    padding:6px;
+    margin-left: 8px;
+
+    color: black;
+    text-decoration: none;
+    /* border: 2px solid black; */
+    border-radius: 12px;
+}
+
+.nav-hero .nav-home {
+    margin: 0px;
+    font-weight: 750;
+    color: #b724ca;
+}
+
+header {
+    border: 1.8px solid black;
+    width: 56vw;
+    height: 36vh;
+    padding: 0px;
+    margin: 8vh auto;
+    border-radius: 12px;
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content: center;
+    align-items: center;
+}
+.img-border {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 100%;
+    padding: 6px;
+}
+
+.pfp-img {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+
+    border-radius: 100%;
+    box-sizing: content-box;
+    overflow: clip;
+}
+
+.pfp-img img {
+    width: inherit;
+}
+
+.pfp-txt{
+    margin: 0;
+    width: 56%;
+}
+
+.pfp-txt div {
+    width: inherit
+}
+
+.hero-header {
+    font-size: 27px;
+    font-weight: 700;
+}
+.hero-descrip {
+    font-size: 22px;
+}
+
+.nav-icon {
+    display: block;
+    margin-top: 16px;
+}
+
+.nav-icon a{
+    color: black;
+    text-decoration: none;
+    padding: 6px;
+    margin-right: 8px;
+    
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+section {
+    width: 56vw;
+    padding: 0px;
+    margin: 8vh auto 0;
+}
+
+.sec-header {
+    text-align: center;
+    font-size: 27px;
+    color:black;
+    font-weight: 700;
+}
+.skill-flex{
+    display:flex;
+    justify-content: center;
+    column-gap: 32px;
+}
+.skill {
+    box-sizing: content-box;
+    height: 36vh;
+    padding: 20px;
+    margin: 5vh 0 0vh;
+    border: 1.8px solid black;
+    border-radius: 12px;
+
+    font-size: 18px;
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-head {
+    font-size: 22px;
+    font-weight: 700;
+    border: 1.8px solid black;
+    border-radius: 12px;
+    padding: 6px;
+    
+}
+
+.skill-icon {
+    font-size:72px;
+    margin-bottom: 18px;
+}
+
+.skill-descrip {
+    text-align: center;
+}
